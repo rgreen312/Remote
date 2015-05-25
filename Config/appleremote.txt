@@ -1,0 +1,17 @@
+appleremote.jpg
+apple
+174   685   7
+circle   43 275   35
+MENU
+circle   133   274   35
+PLAYPAUSE
+circle   88 143   34
+OK
+circle   143   144   22
+RIGHT
+circle   31 144   20
+LEFT
+circle   87 199   22
+DOWN
+circle   88 91 22
+UP

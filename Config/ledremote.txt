@@ -1,0 +1,91 @@
+ledremote.jpg
+LED
+300   685   44
+circle   44 44 22
+VOLUMEUP
+circle   114 44 22 
+VOLUMEDOWN
+circle   187   44 22 
+PLAY
+circle   255   44 22 
+POWER
+circle   44 104   22
+RED
+circle   114   104   22
+GREEN
+circle   185   104   22
+BLUE
+circle   255   104   22
+OK
+circle   44 164   22
+1
+circle   114   164   22
+2
+circle   185   164   22
+3
+circle   255   164   22
+4
+circle   44 224   22
+5
+circle   114   224   22
+6
+circle   185   224   22
+7
+circle   255   224   22
+8
+circle   44 285   22
+9
+circle   114   285   22
+0
+circle   185   285   22
+MUTE
+circle   255   285   22
+STOP
+circle   44 345   22
+LEFT
+circle   114   345   22
+RIGHT
+circle   185   345   22
+DOWN
+circle   255   345   22
+UP
+circle   44 405   22
+PAUSE
+circle   114   405   22
+ENTER
+circle   185   405   22
+A
+circle   255   405   22
+B
+circle   44 465   22
+C
+circle   114   465   22
+CD
+circle   185   465   22
+CHANNELUP
+circle   255   465   22
+CHANNELDOWN
+circle   44 527   22
+CLEAR
+circle   114   527   22
+CLOSE
+circle   185   527   22
+D
+circle   255   527   22
+DVD
+circle   43 591   22
+E
+circle   114   591   22
+END
+circle   185   591   22
+ESC
+circle   255   591   22
+F
+circle   41 651   22
+TV
+circle   114   651   22
+FASTFORWARD
+circle   185   651   22
+RADIO
+circle   255   651   22
+G
