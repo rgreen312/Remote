@@ -1,3 +1,8 @@
+// Ryan Green
+// CS 3 Final Project
+// May 27, 2015
+// Remote.java
+
 import java.io.*;
 import java.util.*;
 import java.awt.Point;

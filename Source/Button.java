@@ -1,3 +1,8 @@
+// Ryan Green
+// CS 3 Final Project
+// May 27, 2015
+// Button.java
+
 import com.jcraft.jsch.*;
 import java.awt.*;
 import javax.swing.JFrame;

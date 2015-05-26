@@ -1,3 +1,8 @@
+// Ryan Green
+// CS 3 Final Project
+// May 27, 2015
+// MouseListener.java
+
 import java.awt.event.MouseEvent;
 import javax.swing.event.MouseInputAdapter;
 import javax.swing.SwingUtilities;

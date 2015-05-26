@@ -1,3 +1,8 @@
+// Ryan Green
+// CS 3 Final Project
+// May 27, 2015
+// RemoteMain.java
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

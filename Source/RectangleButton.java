@@ -1,3 +1,8 @@
+// Ryan Green
+// CS 3 Final Project
+// May 27, 2015
+// RectangleButton.java
+
 import java.awt.Point;
 public class RectangleButton extends Button
 {
