@@ -10,7 +10,7 @@ circle	96	494	14
 circle	96	451	14
 2
 circle	49	452	14
-1
+1 
 circle	49	490	14
 4
 circle	49	529	14
