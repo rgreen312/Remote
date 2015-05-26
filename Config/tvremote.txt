@@ -22,7 +22,7 @@ circle	144	493	14
 circle	144	530	14
 9
 rectangle	85	43	27	27
-allpower
+power
 rectangle	32	85	37	34
 volumeup
 rectangle	32	119	37	34
@@ -30,15 +30,15 @@ volumedown
 triangle    48 405   36 425   59 426
 A
 triangle    67 251   29 249   30 288
-guide
+g
 triangle	126	251	162	252	162	290
 pageup
 triangle	162	347	162	380	126	382
 pagedown
 triangle	30	346	31	382	67	384
-last
+back
 circle	97	142	10
-replay
+previous
 rectangle	127	84	37	36
 channelup
 rectangle	127	121	37	37
