@@ -34,7 +34,7 @@ public abstract class Button
    public Button(String command, String name)
    {
       //command that will activate the infrared remote on the pi when this is sent to the command line
-      this.command = "irsend SEND_ONCE " + name + " KEY_" + command; 
+      this.command = "irsend SEND_ONCE " + name + " KEY_" + command.toUpperCase(); 
    }
    /**
    *Abstract method to be implemented by different shaped buttons that tells whether or not they are hit
