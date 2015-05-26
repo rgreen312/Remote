@@ -32,7 +32,7 @@ public class TriangleButton extends Button
    
    //Couldn't get the first two ways to implement the isHit method to work
    // Because I spent several hours trying to implement these methods,
-   //I will leave them here commented out in anger
+   //I will leave them here commented because of how mad it made me
    /*public boolean isHit(int x, int y)
    {
       double m1 = -(p1.getY()-p2.getY())/(p1.getX()-p2.getX());
@@ -76,15 +76,11 @@ public class TriangleButton extends Button
    */
    public boolean isHit(int x, int y)
    {
-      double x1 = p1.getX(), y1 = p1.getY();
-      double x2 = p2.getX(), y2 = p2.getY();
-      double x3 = p3.getX(), y3 = p3.getY();
-      
       // get area of the triangle, then of all the triangles formed with the point of the users click
-      double ABC = Math.abs (x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2));
-      double ABP = Math.abs (x1 * (y2 - y) + x2 * (y - y1) + x * (y1 - y2));
-      double APC = Math.abs (x1 * (y - y3) + x * (y3 - y1) + x3 * (y1 - y));
-      double PBC = Math.abs (x * (y2 - y3) + x2 * (y3 - y) + x3 * (y - y2));
+      double ABC = Math.abs (p1.getX() * (p2.getY() - p3.getY()) + p2.getX() * (p3.getY() - p1.getY()) + p3.getX() * (p1.getY() - p2.getY()));
+      double ABP = Math.abs (p1.getX() * (p2.getY() - y) + p2.getX() * (y - p1.getY()) + x * (p1.getY() - p2.getY()));
+      double APC = Math.abs (p1.getX() * (y - p3.getY()) + x * (p3.getY() - p1.getY()) + p3.getX() * (p1.getY() - y));
+      double PBC = Math.abs (x * (p2.getY() - p3.getY()) + p2.getX() * (p3.getY() - y) + p3.getX() * (y - p2.getY()));
       
       return ( ABP + APC + PBC == ABC);
    }
