@@ -59,7 +59,7 @@ public class Remote
          System.out.println("Could not find file: " + configuration);
       }
       //Get image file name
-      this.imageFile = "/Users/ryangreen/Desktop/CS Final Project/Images/" + input.nextLine();
+      this.imageFile = "../Images/" + input.nextLine();
       //Get remote name
       this.name = input.nextLine();
       //Get dimensions of the remote image

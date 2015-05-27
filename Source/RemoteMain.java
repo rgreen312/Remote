@@ -21,7 +21,10 @@ import java.io.*;
 
 public class RemoteMain extends JFrame
 {
-   private String imagePath = "/Users/ryangreen/Desktop/CS Final Project/Images/";
+   /**
+   * Path to the image files
+   */
+   private String imagePath = "../Images/";
    /**
    *Remote object that will hold the selected remote
    */
@@ -128,7 +131,7 @@ public class RemoteMain extends JFrame
       select.addActionListener(new ActionListener() 
       {
 			public void actionPerformed(ActionEvent event) {
-            String selectedOption = "/Users/ryangreen/Desktop/CS Final Project/Config/";
+            String selectedOption = "../Config/";
 				if (tv.isSelected()) 
             {
 					selectedOption += "tvremote.txt";
