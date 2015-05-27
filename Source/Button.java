@@ -24,6 +24,7 @@ public abstract class Button
    public static final String USERNAME = "pi";
    /**
    *Password used to log into the raspberry pi
+   *In the future I would like to encrypt this variable, but for now it should be fine
    */
    public static final String PASSWORD = "pi";
    /**
