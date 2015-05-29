@@ -130,7 +130,8 @@ public class RemoteMain extends JFrame
       //when pressed, the currently selected remote will be opened
       select.addActionListener(new ActionListener() 
       {
-			public void actionPerformed(ActionEvent event) {
+			public void actionPerformed(ActionEvent event) 
+         {
             String selectedOption = "../Config/";
 				if (tv.isSelected()) 
             {
