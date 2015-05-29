@@ -70,7 +70,8 @@ public abstract class Button
          //connect to the pi so the command can go through
          channel.connect(1000);
       }
-      catch(Exception e){
+      catch(Exception e)
+      {
          JOptionPane.showMessageDialog(frame, "Error connecting to infrared light", "Error Message", JOptionPane.ERROR_MESSAGE);
       }
    }
